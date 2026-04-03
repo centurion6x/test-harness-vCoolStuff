@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(PYTHONIOENCODING=utf-8 python scripts/solve_tasks.py)",
+      "Bash(PYTHONIOENCODING=utf-8 python scripts/solve_tasks.py --list)",
+      "Bash(npm list:*)"
+    ]
+  }
+}
